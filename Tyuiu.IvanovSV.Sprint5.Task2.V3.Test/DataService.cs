@@ -8,7 +8,7 @@ namespace Tyuiu.IvanovSV.Sprint5.Task2.V3.Test
         [TestMethod]
         public void CheckedExistsFile()
         {
-            string path = @"C:\Users\vvvik\AppData\Local\Temp\OutPutFileTask2.csv";
+            string path = @"C:\Users\Станислав\AppData\Local\Temp\OutPutFileTask2.csv";
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
             bool wait = true;
