@@ -6,7 +6,7 @@
         [TestMethod]
         public void ValidSaveToFileTextData()
         {
-            string path = @"C:\Users\Admin\source\repos\Tyuiu.BerezovskayaGO.Sprint5\Tyuiu.BerezovskayaGO.Sprint5.Task3.V10\bin\Debug\net8.0\OutPutFileTask3.bin";
+            string path = @"C:\Users\Станислав\AppData\Local\Temp\OutPutFileTask3.bin";
 
             FileInfo fileUnfo = new FileInfo(path);
             bool fileInfo = fileUnfo.Exists;
