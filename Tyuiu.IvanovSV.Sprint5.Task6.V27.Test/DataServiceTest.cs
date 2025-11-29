@@ -7,7 +7,7 @@ namespace Tyuiu.IvanovSV.Sprint5.Task6.V27.Test
         [TestMethod]
         public void CheckedExistsFile()
         {
-            string path = @"C:\Users\Станислав\Desktop\source\repos\Tyuiu.BubenkoLG.Sprint5\Tyuiu.BubenkoLG.Sprint5.Task6.V27\bin\Debug\net8.0\InPutDataFileTask6V27.txt";
+            string path = @"C:\DataSprint5\InPutDataFileTask6V27.txt";
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
             bool wait = true;

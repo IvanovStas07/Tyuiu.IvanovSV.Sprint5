@@ -21,8 +21,8 @@ internal class Program
             Console.WriteLine("* Дан файл InPutDataFileTask6V27.txt, в котором есть набор символьных      ");
             Console.WriteLine("* данных. Найти количество трехзначных чисел в заданной строке.            ");
 
-            string path = $@"{Path.GetTempPath()}\InPutDataFileTask5V5.txt";
-            Console.WriteLine("***************************************************************************");
+        string path = @"C:\DataSprint5\InPutDataFileTask6V27.txt";
+        Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                         ");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine(" Данные находятся в файле: " + path);
