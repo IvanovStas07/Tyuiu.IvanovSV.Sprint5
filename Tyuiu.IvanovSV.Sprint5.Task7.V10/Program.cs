@@ -26,13 +26,17 @@ internal class Program
         string path = @"C:\DataSprint5\InPutDataFileTask7V10.txt";
         string pathSaveFile = "";
         Console.WriteLine("Данные находятся в файле: " + path);
-
+        string fileContentOld = File.ReadAllText(path);
+        Console.WriteLine(fileContentOld);
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("Находится в файле: ");
         pathSaveFile = ds.LoadDataAndSave(path);
         Console.WriteLine(pathSaveFile);
+        Console.WriteLine("***************************************************************************");
+        string fileContentNew = File.ReadAllText(pathSaveFile);
+        Console.WriteLine(fileContentNew);
         Console.ReadKey();
     }
 }
