@@ -24,7 +24,7 @@ internal class Program
         Console.WriteLine("***************************************************************************");
 
         string path = @"C:\DataSprint5\InPutDataFileTask7V10.txt";
-        string pathSaveFile = @"C:\Users\marim\AppData\Local\Temp\OutPutDataFileTask7V10.txt";
+        string pathSaveFile = "";
         Console.WriteLine("Данные находятся в файле: " + path);
 
         Console.WriteLine("***************************************************************************");
